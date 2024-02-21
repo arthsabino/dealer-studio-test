@@ -1,0 +1,17 @@
+.primary-button {
+  background-color: var(--primary);
+  padding: 16px;
+  border-radius: 48px;
+  cursor: pointer;
+  min-width: 192px;
+  transition: 0.3s;
+  text-align: center;
+ }
+
+ .primary-button:hover {
+  background-color: var(--primary-on-touch);
+ }
+
+ .primary-button > span {
+  font-weight: 700;
+ }
