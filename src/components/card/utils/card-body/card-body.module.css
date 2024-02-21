@@ -1,0 +1,10 @@
+.paragraph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 16px 0;
+}
+
+.paragraph-container > p {
+  color: var(--subtitle2);
+}
